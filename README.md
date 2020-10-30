@@ -2,7 +2,8 @@
 Demo app that shows session & cache management for a Node.js app using express-sessions and connect-redis.
 
 Session: The app queries an API for ML-generated craft beer names and displays them on the page. There is a session management panel that displays session ID, time until the session expires, and the number of beer names viewed in that session. 
-Cache: The app queries data from Mysql and save to redis for caching.
+
+Cache: The app fetch/query data and save it to redis for caching.
 
 # how to run
 
